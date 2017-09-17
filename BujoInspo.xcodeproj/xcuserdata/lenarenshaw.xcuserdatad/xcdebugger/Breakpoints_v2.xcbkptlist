@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BujoInspo/MonthlyViewController.swift"
+            timestampString = "527291582.699617"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "MonthlyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.ass.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527290023.385675"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.ass.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIButton&gt;"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527290023.399394"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BujoInspo.MonthlyViewController"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527290023.402909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BujoInspo.MonthlyViewController&gt;"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527290023.405198"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "BujoInspo/MonthlyViewController.swift"
+            timestampString = "527291708.449579"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "MonthlyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.minimalistPress.getter : Swift.Bool"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527291708.491558"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "18">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.minimalistPress.setter : Swift.Bool"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527291708.499431"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "31">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; BujoInspo.MonthlyViewController"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527291708.501994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "518">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "BujoInspo.MonthlyViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;BujoInspo.MonthlyViewController&gt;"
+                  moduleName = "BujoInspo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lenarenshaw/Desktop/BujoInspo/BujoInspo/MonthlyViewController.swift"
+                  timestampString = "527291708.506465"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "400">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
