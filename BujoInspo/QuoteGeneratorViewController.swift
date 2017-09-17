@@ -9,10 +9,45 @@
 import UIKit
 
 class QuoteGeneratorViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
-    @IBOutlet weak var quote: UILabel!
-    @IBOutlet weak var generate: UIButton!
-    @IBOutlet weak var themePicker: UIPickerView!
 
+    @IBOutlet weak var picker1: UIPickerView!
+    
+    @IBAction func generator1(_ sender: Any) {
+        if (selectedValue == ("Inspirational")) {
+            let size = UInt32(inspireData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = inspireData[quoteRandom]
+            
+        } else if (selectedValue == ("Uplifting")) {
+            let size = UInt32(upliftingData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = upliftingData[quoteRandom]
+            
+        } else if (selectedValue == ("Contemplative")) {
+            let size = UInt32(contemplativeData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = contemplativeData[quoteRandom]
+            
+        } else if (selectedValue == ("Love")) {
+            let size = UInt32(loveData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = loveData[quoteRandom]
+            
+        } else if (selectedValue == ("Empowerment")) {
+            let size = UInt32(empowermentData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = empowermentData[quoteRandom]
+            
+        } else if (selectedValue == ("Feminism")) {
+            let size = UInt32(feminismData.count)
+            let quoteRandom = Int(arc4random_uniform(size))
+            quote1.text = feminismData[quoteRandom]
+            
+        }
+    }
+    
+    @IBOutlet weak var generate1: UIButton!
+    @IBOutlet weak var quote1: UILabel!
     var pickerData: [String] = [String]()
     var inspireData: [String] = [String]()
     var upliftingData: [String] = [String]()
@@ -25,8 +60,8 @@ class QuoteGeneratorViewController: UIViewController, UIPickerViewDelegate, UIPi
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.themePicker.delegate = self
-        self.themePicker.dataSource = self
+        self.picker1.delegate = self
+        self.picker1.dataSource = self
         
         pickerData = ["-----", "Inspirational", "Uplifting", "Contemplative", "Love", "Empowerment", "Feminism"]
         
@@ -72,42 +107,6 @@ class QuoteGeneratorViewController: UIViewController, UIPickerViewDelegate, UIPi
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         
         selectedValue = pickerData[row] as String
-    }
-    
-    @IBAction func generatePressed(_ sender: Any) {
-        
-        if (selectedValue == ("Inspirational")) {
-            let size = UInt32(inspireData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = inspireData[quoteRandom]
-            
-        } else if (selectedValue == ("Uplifting")) {
-            let size = UInt32(upliftingData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = upliftingData[quoteRandom]
-            
-        } else if (selectedValue == ("Contemplative")) {
-            let size = UInt32(contemplativeData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = contemplativeData[quoteRandom]
-            
-        } else if (selectedValue == ("Love")) {
-            let size = UInt32(loveData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = loveData[quoteRandom]
-            
-        } else if (selectedValue == ("Empowerment")) {
-            let size = UInt32(empowermentData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = empowermentData[quoteRandom]
-            
-        } else if (selectedValue == ("Feminism")) {
-            let size = UInt32(feminismData.count)
-            let quoteRandom = Int(arc4random_uniform(size))
-            quote.text = feminismData[quoteRandom]
-            
-        }
-        
     }
 
     /*
